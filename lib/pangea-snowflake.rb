@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Snowflake; module Types; end; end; end; end
+
 # Snowflake resources
 require_relative 'pangea/resources/snowflake_account/resource'
 require_relative 'pangea/resources/snowflake_account_authentication_policy_attachment/resource'
